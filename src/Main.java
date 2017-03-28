@@ -5,8 +5,9 @@ public class Main {
     public static void main(String[] args) {
         ImageProcessor processor = new ImageProcessor();
 
+        boolean encrypt = false;
+
         //FOR USER Encrypt
-        boolean encrypt = true;
         String inImage = "input/bench_in.png";
         String inText = "input/TheTimeMachine.txt";
         String outImageLocation = "output/bench_out.png";
