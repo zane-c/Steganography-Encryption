@@ -11,7 +11,7 @@ does change with ciphering.
 # Usage
 
 * Add image to the input folder to be encrypted
-* Add text that you would like to encrypt into 
+* Add text that you would like to encrypt to input folder
 * change file parameters in main.java
     
         boolean encrypt = false;
@@ -27,9 +27,9 @@ does change with ciphering.
         String outTextLocation = "output/hidden_message.txt";
         
         
- * Run
+ * Run main.java
  
-Depending on the speed of your computer and input image/text size, encryption can take anyway from 30s to 10m. Due to the nature of iterating through an N x N pixel grid, encryption is O(n^2) run time effiency.
+Depending on the speed of your computer and input image/text size, encryption can take anyway from 20s to 10m. Due to the nature of iterating through an N x M pixel grid, encryption is O(n*m) run time effiency where n and m are the horizontal and vertical image dimensions.
 
 
 # Results
